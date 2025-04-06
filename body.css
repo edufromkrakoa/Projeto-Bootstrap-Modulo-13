@@ -1,0 +1,131 @@
+#inicio .container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+#inicio .row {
+    display: flex;
+    align-items: flex-start; /* Isso alinha os itens pelo topo */
+    padding-top: 30px;
+}
+
+/* Estilização do carrossel */
+.carousel-container {
+    position: relative;
+    width: 66%; 
+    padding-left: 0;
+    padding-right: 40px; 
+    overflow: hidden;
+}
+
+#carousel img {
+    height: 462px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.products-container {
+    height: 400px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.card {
+    background-color: #162238;
+    border: 2px solid #1f2a44;
+    border-radius: 0;
+    overflow: hidden;
+    margin-bottom: 15px;
+    transition: transform 0.3s ease-in-out;
+    text-align: center;
+    align-items: center;
+}
+
+.card .card-body {
+    padding: 0;
+    background-color: transparent;
+    text-align: center;
+}
+
+.card .card-title {
+    margin: 0;
+    color: #fff;
+    background-color: transparent;
+    text-align: center;
+    font-size: 15px;
+}
+
+.card-text {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.card-text p{
+    background-color: transparent;
+    font-size: 12px;
+    color: #AD9460;
+    margin: 0; 
+}
+
+.card-body .card-text .rp-icon {
+    width: 10px;
+    height: 10px;
+    margin-right: 4px;
+} 
+
+.rp-icon img{
+    height: 20px;
+}
+
+#skins, #acessorios, #promocao {
+    padding-top: 40px;
+}
+
+#promocao {
+    padding-bottom: 40px;
+}
+
+.row-cols-lg-5 {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.produto {
+    width: 215px;
+    background-color: #162238;
+    padding: 0;
+    margin-left: 20px;
+    margin-right: 10px;
+    border: 2px solid #162238;
+}
+
+.produto .imagem {
+    height: 200px;
+    width: 212px;
+    object-fit: cover;
+    background-color: #162238;
+}
+
+.descricao{
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+.text-center {
+    background-color: #152238;
+    padding-top: 2px;
+    margin: 0;
+    color: #fff;
+    background-color: transparent;
+    text-align: center;
+    font-size: 15px;
+
+
+}
+

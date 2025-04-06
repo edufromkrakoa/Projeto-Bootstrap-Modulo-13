@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Riot Store</title>
+    <link rel="stylesheet" href="./lib/bootstrap.min.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="body.css">
+    <link rel="stylesheet" href="mediaquery.css">
+</head>
+<body>
+    <!--Header-->
+    <header id="cabecalho">
+        <nav class="navbar navbar-expand-lg">
+          <div class="container">
+            <div class="d-flex align-items-center">
+                <img src="./src/icons/League of Legends icon.png" alt="Logo da loja">
+                <h1>Riot Store</h1>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav id="menu" class="collapse navbar-collapse justify-content-end">
+                <ul class="nav navbar-nav ">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#inicio">Ínicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skins">Skins</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#acessorios">Acessórios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#promocao">Promoções</a>
+                    </li> 
+                </ul>
+                <button id="btn-comprar-rp" type="button" class="btn btn-warning">COMPRE RP</button>
+            </nav>
+          </div>
+        </nav>
+    </header>
+    <!--Fim do header-->
+
+    <!--Seção de inicio-->
+    <div id="inicio">
+        <div class="container">
+            <div class="row">
+                <!-- Carrossel (esquerda) -->
+                <div class="carousel-container">
+                    <div id="carousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="./src/Inicio/teemo.jpg" class="d-block w-100">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./src/Inicio/jiunn-kuo-highnoonkatarina.jpg" class="d-block w-100">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./src/Inicio/Varus_9.jpg" class="d-block w-100">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                        </button>
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0"></button>
+                            <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                            <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                        </div>
+                    </div>
+                </div>  
+                <div class="products-container">
+                    <div class="products-grid">
+                        <div class="card">
+                            <img src="./src/Inicio/orbs.jpeg" class="card-img-top">
+                            <h5 class="card-title">Orbes Florescer Espiritual</h5>
+                            <div class="card-body text-center">
+                                <div class="card-text d-flex justify-content-center align-items-center">
+                                    <img src="./src/Inicio/100px-RP_icon.webp" class="rp-icon">
+                                    <p class="card-text">265 RP</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="products-grid">
+                        <div class="card">
+                            <img src="./src/Inicio/Mythic_Essence.webp" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Essência Mítica</h5>
+                                <div class="card-text d-flex justify-content-center align-items-center">
+                                    <img src="./src/Inicio/100px-RP_icon.webp" class="rp-icon">
+                                    <p class="card-text">265 RP</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="products-grid">
+                        <div class="card">
+                            <img src="./src/Inicio/lootbundle_chest_generic.png" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Baú Hextech e Chave</h5>
+                                <div class="card-text d-flex justify-content-center align-items-center">
+                                    <img src="./src/Inicio/100px-RP_icon.webp" class="rp-icon">
+                                    <p class="card-text">200 RP</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="products-grid">
+                        <div class="card">
+                            <img src="./src/Inicio/zed.jpg" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Zed CHibi</h5>
+                                <div class="card-text d-flex justify-content-center align-items-center">
+                                    <img src="./src/Inicio/100px-RP_icon.webp" class="rp-icon">
+                                    <p class="card-text">2500 RP</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+        </div>   
+    </div>            
+    <!--Fim da seção-->
+
+    <!--Seção das skins-->
+    <div id="skins">
+        <div class="container">
+            <h1>Skins</h1>
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-xl-5 g-4">
+                <div class="col">
+                    <div class="produto h-100"> 
+                        <img class="imagem img-fluid" src="./src/skins/sett.webp" alt="Sett Florescer Espiritual">
+                        <div class="descricao"> 
+                            <h5 class="text-center">Sett Florescer Espiritual</h5>
+                            <div class="preco d-flex justify-content-center align-items-center">
+                                <img src="./src/Inicio/100px-RP_icon.webp" class="me-2" width="20">
+                                <p class="mb-0">1820 RP</p> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="produto h-100">
+                        <img class="imagem img-fluid" src="./src/skins/aphelios.webp" >
+                        <div class="descricao">
+                            <h5 class="text-center">Aphelios Florescer Espiritual</h5>
+                            <div class="preco d-flex justify-content-center align-items-center">
+                                <img src="./src/Inicio/100px-RP_icon.webp" class="me-2" width="20">
+                                <p class="mb-0">1350 RP</p>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="produto h-100">
+                        <img class="imagem img-fluid" src="./src/skins/Kaisa_KDA.jpg" alt="Kai'Sa K/DA">
+                        <div class="descricao">
+                            <h5 class="text-center">Kai'Sa K/DA</h5>
+                            <div class="preco d-flex justify-content-center align-items-center">
+                                <img src="./src/Inicio/100px-RP_icon.webp" class="me-2" width="20">
+                                <p class="mb-0">1350 RP</p>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+                <div class="col">
+                    <div class="produto h-100">
+                        <img class="imagem img-fluid" src="./src/skins/Draven_Mecha Kingdom.jpg" alt="">
+                        <div class="descricao">
+                            <h5 class="text-center">Draven Reinos Mech</h5>
+                            <div class="preco d-flex justify-content-center align-items-center">
+                                <img src="./src/Inicio/100px-RP_icon.webp" class="me-2" width="20">
+                                <p class="mb-0">1350 RP</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="produto h-100">
+                        <img class="imagem img-fluid" src="./src/skins/Ashe_velho Oeste.jpg"> 
+                        <div class="descricao">
+                            <h5 class="text-center">Ashe Velho Oeste</h5>
+                            <div class="preco d-flex justify-content-center align-items-center">
+                                <img src="./src/Inicio/100px-RP_icon.webp" class="me-2" width="20">
+                                <p class="mb-0">1820 RP</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--FIm da seção-->
+    <!--Seção Acessorios-->
+    <div id="acessorios">
+        <div class="container">
+            <h1>Acessorios</h1>
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-xl-5 g-4">
+                <div class="col">
+                    <div class="produto h-100"> 
+                        <img class="imagem img-fluid" src="./src/acessorios/Spirit_Bonds_Teemo_profileicon.webp">
+                        <div class="descricao"> 
+                            <h5 class="text-center">Teemo Florescer Espiritual</h5>
+                            <div class="preco d-flex justify-content-center align-items-center">
+                                <img src="./src/Inicio/100px-RP_icon.webp" class="me-2" width="20">
+                                <p class="mb-0">550 RP</p> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="produto h-100">
+                        <img class="imagem img-fluid" src="./src/acessorios/Galaxies_2020_Ward.webp">
+                        <div class="descricao">
+                            <h5 class="text-center">Sentinela Galáxias 2020</h5>
+                            <div class="preco d-flex justify-content-center align-items-center">
+                                <img src="./src/Inicio/100px-RP_icon.webp" class="me-2" width="20">
+                                <p class="mb-0">640 RP</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="produto h-100">
+                        <img class="imagem img-fluid" src="./src/acessorios/High_Noon_2019_profileicon.webp">
+                        <div class="descricao">
+                            <h5 class="text-center">Ícone Velho Oeste</h5>
+                            <div class="preco d-flex justify-content-center align-items-center">
+                                <img src="./src/Inicio/100px-RP_icon.webp" class="me-2" width="20">
+                                <p class="mb-0">550 RP</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="produto h-100">
+                        <img class="imagem img-fluid" src="./src/acessorios/What_Emote.webp">
+                        <div class="descricao">
+                            <h5 class="text-center">Emote: O que?</h5>
+                            <div class="preco d-flex justify-content-center align-items-center">
+                                <img src="./src/Inicio/100px-RP_icon.webp" class="me-2" width="20">
+                                <p class="mb-0">350 RP</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="produto h-100">
+                        <img class="imagem img-fluid" src="./src/acessorios/Spirit_Blossom_Cassiopeia_Chroma_profileicon.webp">
+                        <div class="descricao">
+                            <h5 class="text-center">Cassiopeia Florescer Espiritual</h5>
+                            <div class="preco d-flex justify-content-center align-items-center">
+                                <img src="./src/Inicio/100px-RP_icon.webp" class="me-2" width="20">
+                                <p class="mb-0">350 RP</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--FIm da seção-->
+    <!--Seção Promoções-->
+    <div id="promocao">
+        <div class="container">
+            <h1>Promoções</h1>
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-xl-5 g-4">
+                <div class="col">
+                    <div class="produto h-100"> 
+                        <img class="imagem img-fluid" src="./src/promoções/Hextech_Crafting_Masterwork_Chest.webp">
+                        <div class="descricao"> 
+                            <h5 class="text-center">Baú Mestre-Artesão e Chave</h5>
+                            <div class="preco d-flex justify-content-center align-items-center">
+                                <img src="./src/Inicio/100px-RP_icon.webp" class="me-2" width="20">
+                                <p class="mb-0">125 RP</p> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="produto h-100"> 
+                        <img class="imagem img-fluid" src="./src/promoções/cassiopeia.jpg">
+                        <div class="descricao"> 
+                            <h5 class="text-center">Cassiopeia Florescer Espiritual</h5>
+                            <div class="preco d-flex justify-content-center align-items-center">
+                                <img src="./src/Inicio/100px-RP_icon.webp" class="me-2" width="20">
+                                <p class="mb-0">944 RP</p> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="produto h-100"> 
+                        <img class="imagem img-fluid" src="./src/promoções/evelynn.jpg">
+                        <div class="descricao"> 
+                            <h5 class="text-center">Evelynn Florescer Espiritual</h5>
+                            <div class="preco d-flex justify-content-center align-items-center">
+                                <img src="./src/Inicio/100px-RP_icon.webp" class="me-2" width="20">
+                                <p class="mb-0">675 RP</p> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="produto h-100"> 
+                        <img class="imagem img-fluid" src="./src/promoções/master yi.jpeg">
+                        <div class="descricao"> 
+                            <h5 class="text-center">Master Yi Florescer Espiritual</h5>
+                            <div class="preco d-flex justify-content-center align-items-center">
+                                <img src="./src/Inicio/100px-RP_icon.webp" class="me-2" width="20">
+                                <p class="mb-0">975 RP</p> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="produto h-100"> 
+                        <img class="imagem img-fluid" src="./src/promoções/syndra.webp">
+                        <div class="descricao"> 
+                            <h5 class="text-center">Syndra FLorescer Espiritual</h5>
+                            <div class="preco d-flex justify-content-center align-items-center">
+                                <img src="./src/Inicio/100px-RP_icon.webp" class="me-2" width="20">
+                                <p class="mb-0">742 RP</p> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--FIm da seção-->
+    <!--Footer-->
+    <footer class="footer-section bg-dark text-white py-4">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-8 text-center">
+                    <p class="mb-3">Projeto desenvolvido para o módulo 13 do curso Desenvolvedor Full Stack Python da EBAC</p>
+
+                    <div class="social-links d-flex justify-content-center align-items-center">
+                        <p class="mb-0 me-2">Me siga no LinkedIn:</p>
+                        <a href="https://www.linkedin.com/in/eduardo-a-sp/" 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        class="social-icon"
+                        aria-label="Perfil no LinkedIn">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" 
+                             alt="Ícone LinkedIn"
+                             width="32"
+                             height="32">
+                        </a>
+                    </div>
+                    <p class="small mt-2 mb-0">© 2023 - Eduardo SP</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--Fim do footer-->
+    <script src="./lib/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,63 @@
+body {
+    background-color: #05141C;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+#cabecalho .d-flex {
+    display: flex;
+    align-items: center;
+    max-width: 70%; /* Limita a largura para não empurrar o menu hamburguer */
+}
+
+#cabecalho {
+    height: 80px;
+    max-width: 100%;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+#cabecalho img {
+    height: 90px;
+    padding: 0;
+}
+
+#cabecalho .navbar {
+    height: 100%;
+}
+
+.container h1{
+    color: #C7C1B2;
+    font-size: 90px;
+    font-weight: bold;
+    padding-right: 20px;
+}
+
+.container a{
+    color: #918A6D;
+    cursor: pointer;
+}
+
+.container a:hover{
+    color: #C7C1B2; 
+    cursor: pointer;
+}
+
+.nav-link {
+    padding-top: 40px;
+}
+
+ #btn-comprar-rp{
+    border: 3px solid #AA8941;
+    color: #C5B68C;
+    background-color: #1E2328;
+    padding: 5px 10px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+#btn-comprar-rp:hover{
+    color: #C7C1B2; 
+    background-color: #2B2F36;
+}
